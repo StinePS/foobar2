@@ -1,0 +1,67 @@
+// Nesting
+nav {
+  a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+}
+
+nav {
+  width: 100%;
+  background-color: var(--main-bg);
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+.nav-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+// Styling number next to basket
+.basket-icon {
+  position: relative;
+}
+
+.total-items {
+  position: absolute;
+  background-color: var(--sec-bg);
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  nav {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    top: 0;
+  }
+
+  .nav-width {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .icon-size:hover {
+    transform: scale(1.2);
+  }
+}

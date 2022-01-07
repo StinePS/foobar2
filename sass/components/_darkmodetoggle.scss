@@ -1,0 +1,36 @@
+.switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 9999px;
+  height: 2.5rem;
+  width: 4.5rem;
+  border: none;
+}
+
+.switch-marker {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.switch-darkmode {
+  background-color: var(--sec-bg);
+}
+
+.switch-lightmode {
+  background-color: var(--sec-bg);
+}
+
+.switch-marker-darkmode {
+  background-color: var(--main-bg);
+  transform: translateX(calc(4.5rem - 2rem - 2px));
+}
+
+.switch-marker-lightmode {
+  background-color: var(--main-bg);
+  transform: translateX(2px);
+}

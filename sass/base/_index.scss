@@ -1,0 +1,52 @@
+@forward "typography";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: rgba(255, 244, 235, 1);
+  --sec-bg: rgba(244, 212, 187, 1);
+  --terti-bg: rgba(232, 177, 132, 1);
+  --fourth-bg: rgba(247, 228, 214, 1);
+  --accent: rgba(31, 49, 67, 1);
+  --main-txt: rgba(19, 36, 53, 1);
+  --sec-txt: rgba(19, 36, 53, 1);
+}
+
+.dark {
+  --main-bg: rgba(19, 36, 53, 1);
+  --sec-bg: rgba(31, 49, 67, 1);
+  --terti-bg: rgba(232, 177, 132, 1);
+  --fourth-bg: rgb(38, 57, 75);
+  --accent: rgba(229, 157, 97, 1);
+  --main-txt: rgba(229, 157, 97, 1);
+  --sec-txt: rgba(19, 36, 53, 1);
+}
+
+body {
+  font-family: -apple-system, Helvetica Neue, sans-serif;
+  background-color: var(--main-bg);
+  color: var(--main-txt);
+  overflow-y: scroll;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sec-bg {
+  background-color: var(--sec-bg);
+  margin-top: 1rem;
+}
+
+.terti-bg {
+  background-color: var(--terti-bg);
+}
+
+.sec-txt {
+  color: var(--sec-txt);
+}

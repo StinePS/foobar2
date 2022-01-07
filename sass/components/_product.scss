@@ -1,0 +1,52 @@
+.price {
+  font-size: 1.2rem;
+  text-align: right;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.product-article {
+  background-color: var(--fourth-bg);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.product-buttons {
+  text-align: right;
+}
+
+// Disclosure buttons
+.btn-info {
+  display: inline-block;
+  background-color: var(--sec-bg);
+  color: var(--accent);
+  padding: 0.5rem;
+  margin: auto;
+  min-width: 5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--accent);
+  text-align: center;
+}
+
+.btn-info:hover {
+  background-color: var(--accent);
+  color: var(--sec-bg);
+  box-shadow: none;
+  border: 1px solid var(--accent);
+}
+
+// Buttons with chevrons/arrows
+.chevron-size {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+.chevron-rotate {
+  transform: rotate(180deg);
+  vertical-align: middle;
+}
+
+.txt-disclosure {
+  padding: 1rem 0 0.5rem 0;
+}

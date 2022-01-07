@@ -1,0 +1,46 @@
+fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  width: 100%;
+}
+
+// Credit card animation
+.rccs {
+  padding: 1rem 0;
+}
+
+// Warning messages
+.hint {
+  font-size: 0.8rem;
+  visibility: hidden;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  visibility: hidden;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) + .hint {
+  visibility: visible;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+  outline: solid var(--main-txt);
+}
+
+// Styling of inputs and labels
+input {
+  background-color: var(--fourth-bg);
+  color: var(--main-txt);
+  font-size: 1rem;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+label {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,53 @@
+h1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+.hover-me:hover {
+  display: inline-block;
+  transform: scale(1.1);
+}
+
+.description h2 {
+  margin: 1.5rem 0 0 0;
+}
+
+.description p {
+  margin-top: 0.5rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.page-header {
+  font-size: 2rem;
+}
+
+.page-title {
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.txt-cursive {
+  font-style: oblique;
+  letter-spacing: 0.01rem;
+}
+
+.txt-strong {
+  font-weight: 600;
+}

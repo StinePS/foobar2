@@ -1,0 +1,56 @@
+// General buttons
+button {
+  font-size: 1rem;
+}
+
+.btn-container {
+  margin-top: 1rem;
+}
+
+.btn-container :nth-child(2) {
+  margin-left: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--sec-bg);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 3px 3px 3px 0px rgba(19, 36, 53, 0.7);
+  min-width: 5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--accent);
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--sec-bg);
+  color: var(--accent);
+  box-shadow: none;
+  border: 1px solid var(--accent);
+}
+
+.btn:disabled {
+  display: none;
+}
+
+// + and - buttons in the cart
+.btn-math {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--sec-bg);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  box-shadow: 3px 3px 3px 0px rgba(19, 36, 53, 0.7);
+  border-radius: 0.5rem;
+  border: 1px solid var(--accent);
+  text-align: center;
+}
+
+.btn-math:hover {
+  background-color: var(--sec-bg);
+  color: var(--accent);
+  box-shadow: none;
+  border: 1px solid var(--accent);
+}
